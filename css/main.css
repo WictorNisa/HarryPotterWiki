@@ -82,6 +82,10 @@ ul {
   animation: fadein 4s ease-out;
 }
 
+.main-header{
+  animation: fadein 4s ease-out;
+}
+
 .nav-ul li a {
   font-size: 1.3em;
   color: white;
@@ -107,6 +111,7 @@ ul {
   -webkit-box-shadow: inset 0px 43px 49px 0px rgba(68,79,48,1);
   -moz-box-shadow: inset 0px 43px 49px 0px rgba(68,79,48,1);
   box-shadow: inset 0px 43px 49px 0px rgba(68,79,48,1);
+  border-bottom: 2px solid #303325;
 }
 
 .random-h2{
