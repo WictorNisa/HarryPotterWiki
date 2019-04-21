@@ -1,0 +1,114 @@
+/* =================MAIN-STYLES===================== */
+@-webkit-keyframes fadein {
+  from { opacity: 0;}
+  to {  opacity: 1;}
+}
+@-o-keyframes fadein {
+  from { opacity: 0;}
+  to {  opacity: 1;}
+}
+@-moz-keyframes fadein {
+  from { opacity: 0;}
+  to { opacity: 1;}
+}
+@keyframes fadein {
+  from { opacity: 0;}
+  to { opacity: 1;}
+}
+
+/* ================================= */
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Indie Flower', cursive;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* ====================MAIN-GRID======================== */
+
+.grid-wrap{
+  display: grid;
+  grid-template-columns: minmax(300px, 1fr);
+  grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+
+
+/* ===================HEADER======================== */
+
+.hero-header{
+  background-image: url('../img/hero2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  animation: fadein 3s ease-in;
+}
+
+nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: fadein 4s ease-out;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.hero-title{
+  padding-top: 1em;
+  font-size: 3em;
+  color: white;
+  animation: fadein 4s ease-out;
+}
+
+.nav-ul li a {
+  font-size: 1.3em;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nav-ul li {
+  padding-top: .8em;
+  text-align: center;
+  padding-bottom: .8em;
+}
+
+.quote-grid{
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-left: .5em;
+  padding-right: .5em;
+  background-color: #3A3E3B;
+  -webkit-box-shadow: inset 0px 43px 49px 0px rgba(68,79,48,1);
+  -moz-box-shadow: inset 0px 43px 49px 0px rgba(68,79,48,1);
+  box-shadow: inset 0px 43px 49px 0px rgba(68,79,48,1);
+}
+
+.random-h2{
+  color: #F4F2F3;
+}
